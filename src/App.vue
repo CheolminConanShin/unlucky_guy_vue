@@ -13,10 +13,12 @@
 <style>
   html, body, #app {
     height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
