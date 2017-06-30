@@ -1,6 +1,6 @@
 <template>
   <div class="splash-container">
-    <img src="../assets/splash.png"/>
+    <img src="../assets/images/splash.png"/>
   </div>
 </template>
 <script>

@@ -1,13 +1,13 @@
 <template>
   <div class="score-container">
-    <img class="title-img" src="../assets/app-title.png"/>
+    <img class="title-img" src="../assets/images/app-title.png"/>
     <div class="first-rank">
       <div class="left">
-        <img src="../assets/face-1.svg"/>
+        <img src="../assets/images/face-1.svg"/>
         <span>Jacky</span>
       </div>
       <div class="right">
-        <img src="../assets/coffee.png"/>
+        <img src="../assets/images/coffee.png"/>
         <span>x 12</span>
       </div>
     </div>
