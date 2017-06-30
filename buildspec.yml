@@ -3,12 +3,12 @@ phases:
   install:
     commands:
       - npm install
-
-  build:
+  pre_build:
     commands:
       - npm test
-
-  post_build:
+  build:
     commands:
       - npm run build
+  post_build:
+    commands:
       - aws s3 sync ./dist s3://unlucky-guy --grants full=uri=http://acs.amazonaws.com/groups/global/AllUsers
