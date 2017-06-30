@@ -11,4 +11,6 @@ phases:
   post_build:
     commands:
       - npm run build
-      - aws s3 sync ./dist s3://unlucky-guy --grants full=uri=http://acs.amazonaws.com/groups/global/AllUsers
+artifacts:
+  files:
+    - dist/**/*
