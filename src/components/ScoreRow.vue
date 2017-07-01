@@ -1,7 +1,7 @@
 <template>
   <div class="other-rank">
     <div class="left">
-      <img src="../assets/images/face-1.svg"/>
+      <img :src="randomFaceImage()"/>
       <span>Evan</span>
     </div>
     <div class="right">
@@ -10,6 +10,16 @@
     </div>
   </div>
 </template>
+<script>
+  export default {
+    methods: {
+      randomFaceImage: () => {
+          const randomNumberFromOneToTen = Math.floor(Math.random() * 10) + 1
+          return require("../assets/images/face-"+randomNumberFromOneToTen+".svg")
+      }
+    }
+  }
+</script>
 <style>
   .other-rank {
     display: flex;
