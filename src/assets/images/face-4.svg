@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="166" height="200" viewBox="0 0 166 200">
+    <defs>
+        <ellipse id="a" cx="14.901" cy="11.766" rx="14.901" ry="11.766"/>
+        <ellipse id="b" cx="14.901" cy="11.766" rx="14.901" ry="11.766"/>
+        <circle id="d" cx="7.285" cy="7.285" r="7.285"/>
+        <circle id="e" cx="7.285" cy="7.285" r="7.285"/>
+        <circle id="g" cx="7.285" cy="7.285" r="7.285"/>
+        <circle id="h" cx="7.285" cy="7.285" r="7.285"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(4)">
+            <circle cx="147.351" cy="74.338" r="10.927" fill="#D85151" stroke="#333" stroke-width="7"/>
+            <circle cx="10.927" cy="74.338" r="10.927" fill="#D85151" stroke="#333" stroke-width="7"/>
+            <rect width="132.095" height="199.338" x="10.596" y=".497" fill="#333" rx="66.048"/>
+            <path fill="#EEBA64" d="M25.828 123.361V71.735c0-28.005 22.697-41.437 50.708-41.437 28.006 0 50.709 13.434 50.709 41.437v51.626"/>
+            <circle cx="77.815" cy="131.291" r="16.887" fill="#EEBA64" stroke="#333" stroke-width="19"/>
+            <g transform="translate(62.914 120.655)">
+                <use fill="#D85151" xlink:href="#a"/>
+                <mask id="c" fill="#fff">
+                    <use xlink:href="#b"/>
+                </mask>
+                <use fill="#D85151" xlink:href="#b"/>
+                <ellipse cx="89.156" cy="11.766" fill="#FFF" stroke="#979797" mask="url(#c)" rx="14.901" ry="11.766"/>
+                <ellipse cx="15.646" cy="21.767" fill="#717171" mask="url(#c)" rx="8.692" ry="6.864"/>
+            </g>
+            <path fill="#FFF" d="M63.576 128.311s3.335-5.331 9.272-7.285c5.937-1.953 13.907 0 18.543 5.96 0 0-10.214 2.65-13.576 2.65-3.383 0-14.239-1.325-14.239-1.325z"/>
+            <g transform="translate(39.073 60.1)">
+                <use fill="#D85151" xlink:href="#d"/>
+                <mask id="f" fill="#fff">
+                    <use xlink:href="#e"/>
+                </mask>
+                <use fill="#D85151" xlink:href="#e"/>
+                <circle cx="43.587" cy="7.285" r="7.285" fill="#FFF" stroke="#979797" mask="url(#f)"/>
+            </g>
+            <g transform="translate(100.662 60.1)">
+                <use fill="#D85151" xlink:href="#g"/>
+                <mask id="i" fill="#fff">
+                    <use xlink:href="#h"/>
+                </mask>
+                <use fill="#D85151" xlink:href="#h"/>
+                <circle cx="43.587" cy="7.285" r="7.285" fill="#FFF" stroke="#979797" mask="url(#i)"/>
+            </g>
+            <rect width="17.881" height="7.285" x="99.338" y="49.503" fill="#333" rx="3.642"/>
+            <rect width="62.689" height="21.854" x="46.47" y="75.219" fill="#D85151" rx="10.927" transform="rotate(-90 77.815 86.146)"/>
+            <rect width="17.881" height="7.285" x="37.086" y="49.503" fill="#333" rx="3.642"/>
+        </g>
+        <path d="M-17 0h200v200H-17z"/>
+    </g>
+</svg>
